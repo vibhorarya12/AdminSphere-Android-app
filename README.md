@@ -1,79 +1,23 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<h1 align="center">📱AdminSphere (React-native android app)⭐</h1>
+<img src="./screenshots/main.png" alt="Image Alt Text" style="max-width: 100%; height: auto">
 
-# Getting Started
+# 📚 Project Overview
+### AdminSphere is an Android application developed using React Native, designed to serve as a comprehensive employee management tool. It empowers administrators to create, manage, and monitor admin accounts efficiently. With features like access control, activity logs, and a notice board, AdminSphere streamlines organizational processes and enhances communication.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+# 🖼️ Features
+## Seamless Admin Onboarding
+- ### AdminSphere includes a signup feature that enables the creation of admin accounts directly within the application. This functionality allows new administrators to quickly establish their accounts, gaining access to the platform's management tools and resources.
+<img src="./screenshots/signup.png" alt="Image Alt Text" style="max-width: 100%; height: auto">
 
-## Step 1: Start the Metro Server
+## Admin Management & Activity Logs
+- ### AdminSphere provides a centralized platform for efficient admin management, including the ability to delete admin accounts as needed. Additionally, administrators can easily access and review activity logs, allowing for comprehensive monitoring of user actions within the application.
+<img src="./screenshots/manage.png" alt="Image Alt Text" style="max-width: 100%; height: auto">
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Admin Notice Board
+- ### AdminSphere offers a dedicated notice board feature, allowing administrators to post important announcements, updates, or reminders directly within the application. This functionality streamlines communication, ensuring that critical information reaches all relevant parties promptly and efficiently.
+<img src="./screenshots/notices.png" alt="Image Alt Text" style="max-width: 100%; height: auto">
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Guarded Access Feature
+- ### AdminSphere incorporates a robust security measure in the form of a secure lock feature. When activated, this feature restricts access to sensitive operations such as deleting admin accounts, posting notices, and creating new admin accounts. Only authorized users with the appropriate credentials can unlock the feature, ensuring that critical actions are performed securely and responsibly.
+<img src="./screenshots/secure.png" alt="Image Alt Text" style="max-width: 100%; height: auto">
 
-```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
